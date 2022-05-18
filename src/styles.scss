@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+// 重置css
+@import "./reset.scss";
+// Set the variables here.
+@import "~@progress/kendo-theme-bootstrap/dist/all.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  max-width: 0;
+}
+
+div,
+span,
+header,
+section,
+main,
+body,
+article,
+footer,
+aside,
+nav {
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
